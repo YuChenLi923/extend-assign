@@ -5,7 +5,6 @@ Extend Object.assgin(),it can support filter, deep copy, protect property.
 
 ```
 npm i extend-assign --save
-
 ```
 
 ## Examples
