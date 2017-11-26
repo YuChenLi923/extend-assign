@@ -81,26 +81,29 @@ const assign = require('extend-assign')
 
 ### assgin(target[,...sources][,deep, option])
 
-- target <object>
-target object
+- target \<object> target object
 
-- sources <array> An array of source objects.
+- sources \<array> An array of source objects.
 
-- deep <boolean> When true, the copy is deep copy; Default: false
+- deep \<boolean> When true, the copy is deep copy; Default: false
 
-- options <object>
-  - filter <array>|<function>
-    -  <array> An array of propertites will be filtered.
-    - <function> a custom filter function, the function has an argument(key), when the function return false, will filter the key.
-  - filterGlobal <boolean>
+- options \<object>
+  - filter \<array>|\<function>
+    -  \<array> An array of propertites will be filtered.
+    - \<function>
 
-      When true,for example, 'xxx.xx' will be regarded as a key; Default: false.
-  - protect <array>|<function>
-     -  <array> An array of propertites will be protected.
-     - <function> a custom filter function, the function has an argument(key), when the function return false, will protect the key.
-  - protectGlobal
+         a custom filter function, the function has an argument(key), when the function return false, will filter the key.
+  - filterGlobal \<boolean>
 
       When true,for example, 'xxx.xx' will be regarded as a key; Default: false.
+  - protect \<array>|\<function>
+     -  \<array> An array of propertites will be protected.
+     - \<function>
+
+        a custom filter function, the function has an argument(key), when the function return false, will protect the key.
+  - protectGlobal \<boolean>
+
+       When true,for example, 'xxx.xx' will be regarded as a key; Default: false.
 ## test
 
 ```
