@@ -1,6 +1,6 @@
 {
   "name": "extend-assign",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Extend Object.assgin(),it can support filter, deep copy, protect property...",
   "main": "src/index.js",
   "scripts": {
@@ -13,10 +13,10 @@
     "url": "https://github.com/YuChenLi923/extend-assign.git"
   },
   "keywords": [
-    "assgin",
+    "assign",
     "extend-assign",
-    "assgin-extend",
-    "assgin-pro",
+    "assign-extend",
+    "assign-pro",
     "yc"
   ],
   "devDependencies": {

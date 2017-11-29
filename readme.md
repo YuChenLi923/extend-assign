@@ -83,9 +83,9 @@ const assign = require('extend-assign')
 
 ### assgin(target[,...sources][,deep, option])
 
-- target \<object> target object
+- target \<object>|<array> target object
 
-- sources \<array> An array of source objects.
+- sources \<array> An array of source objects or arrays.
 
 - deep \<boolean> When true, the copy is deep copy; Default: false
 
