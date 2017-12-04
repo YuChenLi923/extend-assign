@@ -1,4 +1,3 @@
---watch
 --webpack-config build/webpack.test.config.js
 --colors
 -t 0
