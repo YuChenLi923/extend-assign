@@ -1,6 +1,6 @@
 {
   "name": "extend-assign",
-  "version": "0.0.2",
+  "version": "0.0.2-a",
   "description": "Extend Object.assgin(),it can support filter, deep copy, protect property...",
   "main": "src/index.js",
   "scripts": {

@@ -1,6 +1,7 @@
 # extend-assign
-![NPM version](https://badge.fury.io/js/extend-ajax.svg)
-![Downloads](http://img.shields.io/npm/dm/extend-ajax.svg?style=flat)
+[![Build Status](https://travis-ci.org/YuChenLi923/extend-assign.svg?branch=master)](https://travis-ci.org/YuChenLi923/extend-assign)
+![NPM version](https://badge.fury.io/js/extend-assign.svg)
+![Downloads](http://img.shields.io/npm/dm/extend-assign.svg?style=flat)
 Extend Object.assgin(),it can support filter, deep copy, protect property.
 
 ## Install
