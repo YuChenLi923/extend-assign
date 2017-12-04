@@ -1,7 +1,6 @@
 # extend-assign
-[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
-[![Github All Releases](https://img.shields.io/github/downloads/lyc923/extend-assign/total.svg)]()
-
+![NPM version](https://badge.fury.io/js/extend-ajax.svg)
+![Downloads](http://img.shields.io/npm/dm/extend-ajax.svg?style=flat)
 Extend Object.assgin(),it can support filter, deep copy, protect property.
 
 ## Install

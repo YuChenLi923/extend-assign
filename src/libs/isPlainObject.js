@@ -1,3 +1,4 @@
+
 function isPlainObject(obj) {
   const hasOwn = Object.prototype.hasOwnProperty;
   if (!obj || typeof obj !== 'object' || (typeof window !== 'undefined' && window.window === window && obj === window)) {
