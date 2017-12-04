@@ -1,4 +1,5 @@
 --webpack-config build/webpack.test.config.js
 --colors
 -t 0
---reporter mochawesome
+--reporter list
+
