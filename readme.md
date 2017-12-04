@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/YuChenLi923/extend-assign.svg?branch=master)](https://travis-ci.org/YuChenLi923/extend-assign)
 ![NPM version](https://badge.fury.io/js/extend-assign.svg)
 ![Downloads](http://img.shields.io/npm/dm/extend-assign.svg?style=flat)
+[![Coverage Status](https://coveralls.io/repos/github/YuChenLi923/extend-assign/badge.svg?branch=master)](https://coveralls.io/github/YuChenLi923/extend-assign?branch=master)
 
 Extend Object.assgin(),it can support filter, deep copy, protect property.
 
