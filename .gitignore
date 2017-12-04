@@ -1,5 +1,6 @@
 *.log
 
+.coveralls.yml
 /dist
 /.idea
 /node_modules
