@@ -32,8 +32,8 @@ function assign(...args) {
       key,
       clone,
       source;
-  if (!isType(target, 'object') && !isType(target, 'array')) {
-    throw new Error('the target is not Object or Array');
+  if (!isType(target, 'object') && !isType(target, 'array') && !isType(target, 'function')) {
+    throw new Error('the target is not Object, Array or Function');
   }
   if (isType(deep, 'object') && (args[len - 2] === true || args[len - 2] === false) ) {
     ops = deep;

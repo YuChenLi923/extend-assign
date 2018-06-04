@@ -148,3 +148,17 @@ describe('test protect', function () {
         assert.equal(A.name, 'A');
     });
 });
+describe('test assign class', function () {
+    class Text {
+      constructor(name) {
+        this.name = name;
+      }
+    }
+    function say() {
+      console.log(123);
+    }
+    var result = assign(Text, {
+      say
+    });
+    assert(result.say, say);
+});

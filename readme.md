@@ -4,7 +4,7 @@
 ![Downloads](http://img.shields.io/npm/dm/extend-assign.svg?style=flat)
 [![Coverage Status](https://coveralls.io/repos/github/YuChenLi923/extend-assign/badge.svg?branch=master)](https://coveralls.io/github/YuChenLi923/extend-assign?branch=master)
 
-Extend Object.assgin(),it can support filter, deep copy, protect property.
+Extend Object.assign(),it can support filter, deep copy, protect property.
 
 ## Install
 
@@ -34,7 +34,7 @@ assign({a: {c: 3}}, {a: {a: 1, b: 2}}, true);
 
 ```
 
-Filter you specify propertites from source objects
+Filter you specify properties from source objects
 
 ```
 const assign = require('extend-assign')
@@ -66,7 +66,7 @@ assign({a: {c: 3}}, {a: {a: 1, 'a.b': 2, b: 2}, b: 2}, true, {
 
 ```
 
-Protect you specify propertites from source objects, protected propertites aren't writable and enumerable
+Protect you specify properties from source objects, protected properties aren't writable and enumerable
 
 ```
 const assign = require('extend-assign')
@@ -85,7 +85,7 @@ const assign = require('extend-assign')
 
 ### assgin(target[,...sources][,deep, option])
 
-- target \<object>|<array> target object
+- target \<object>|<array>|<function> target object
 
 - sources \<array> An array of source objects or arrays.
 
@@ -93,7 +93,7 @@ const assign = require('extend-assign')
 
 - options \<object>
   - filter \<array>|\<function>
-    -  \<array> An array of propertites will be filtered.
+    -  \<array> An array of properties will be filtered.
     - \<function>
 
          a custom filter function, the function has an argument(key), when the function return false, will filter the key.
@@ -101,7 +101,7 @@ const assign = require('extend-assign')
 
       When true,for example, 'xxx.xx' will be regarded as a key; Default: false.
   - protect \<array>|\<function>
-     -  \<array> An array of propertites will be protected.
+     -  \<array> An array of properties will be protected.
      - \<function>
 
         a custom filter function, the function has an argument(key), when the function return false, will protect the key.
