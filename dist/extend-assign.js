@@ -7,7 +7,7 @@
 		exports["eAssign"] = factory();
 	else
 		root["eAssign"] = factory();
-})(global, function() {
+})(this, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};

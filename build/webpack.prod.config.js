@@ -10,9 +10,9 @@ module.exports = {
     path: path.resolve(__dirname, '../dist'),
     filename: fileName + '.js',
     library: libraryName,
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
+    globalObject: 'this'
   },
-  target: 'node',
   mode: 'production',
   module: {
     rules: [{

@@ -21,13 +21,13 @@ module.exports = {
       })
     ]
   },
-  target: 'node',
   entry: path.resolve(__dirname, '../src/index.js'),
   output: {
     path: path.resolve(__dirname, '../dist'),
     filename: fileName + '.js',
     library: libraryName,
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
+    globalObject: 'this'
   },
   module: {
     rules: [{
