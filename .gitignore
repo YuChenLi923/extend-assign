@@ -2,7 +2,6 @@
 package-lock.json
 .coveralls.yml
 /coverage
-/dist
 /.idea
 /node_modules
- 
+
