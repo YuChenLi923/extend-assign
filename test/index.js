@@ -1,4 +1,4 @@
-const assign = require('../src/index'),
+const assign = require('../dist/extend-assign.min'),
       assert = require('assert');
 describe('test assign', () => {
   it('copy', () => {

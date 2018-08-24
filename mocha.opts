@@ -1,0 +1,4 @@
+--watch
+--colors
+-t 0
+--reporter list
