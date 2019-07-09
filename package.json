@@ -1,8 +1,8 @@
 {
   "name": "extend-assign",
-  "version": "0.0.5",
+  "version": "0.0.5-c",
   "description": "Extend Object.assgin(),it can support filter, deep copy, protect property...",
-  "main": "dist/extend-assgin.min.js",
+  "main": "dist/extend-assign.min.js",
   "scripts": {
     "test": "mocha",
     "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && gulp coveralls",
